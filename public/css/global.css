@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+header {
+    background-color: rgb(133, 16, 65);
+    padding: 30px;
+}
+menu {
+    text-align: center;
+    
+}
+menu a {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: 0.3s;
+    padding: 30px;
+}
+menu a:hover {
+    background-color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* main */
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+    display: block;
+    margin: 70px auto 0;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(77, 76, 76);
+    padding: 25px 40px;
+    background: rgb(241, 195, 68);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 6px rgb(238, 175, 81);
+    font-family:monospace  ;
+}
+.btn:hover {
+    box-shadow: 0 4px  rgb(238, 175, 81);
+    top: 2px;
+
+}
+
+
+
+
+
+
+
+form {
+    border: solid black 1px;
+    margin: 0 auto 0;
+    width: 20%;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black ;
+}
+
+
+section  {
+    
+    margin: 0 auto 0;
+    width: 50%;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px black;
+    background-color: aliceblue;
+}
+
+  
+
+
+
+/* pour mettre deux par deux la images  */
+main {
+    background-color: rgb(202, 89, 83);
+    /* background-image: url('../../public/media/images/flou.jpg'); */
+    background-size: cover;
+    background-attachment: fixed; /* L'image de fond reste fixe lors du défilement */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espace entre les sections */
+    padding: 20px; /* Espacement interne pour un meilleur aspect */
+}
+
+.image-section {
+    
+    flex: 0 0 calc(50% - 20px); /* 50% de la largeur moins l'espace entre les sections */
+    border: 5px solid #000000;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.image-section img {
+    max-width: 100%; /* Les images prennent toute la largeur de leur conteneur */
+    height: auto; /* Maintenir le ratio d'aspect des images */
+}
+
+
+
+
+
+
+/* agrandir l'img au click */
+
